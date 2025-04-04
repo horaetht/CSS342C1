@@ -17,6 +17,7 @@ bool isPowerOfTwo(int n) {
     return (n > 0) && ((n & (n - 1)) == 0);
 }
 
+//test case
 void testIsPowerOfTwo() {
     bool pass = true;
     pass &= isPowerOfTwoLoop(1);
